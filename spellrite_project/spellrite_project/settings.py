@@ -30,7 +30,7 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = env('DEBUG')
 
 # ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=[])
-ALLOWED_HOSTS = ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '137.184.82.233']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '137.184.82.233']
 
 DATABASES = {
     'default': {
